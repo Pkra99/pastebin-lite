@@ -54,7 +54,7 @@ export default async function PastePage({ params }: PageProps) {
     return (
         <div className="container">
             <header className="header">
-                <Link href="/" style={{ textDecoration: 'none' }}>
+                <Link href="/" style={{ textDecoration: 'none', color: 'inherit' }}>
                     <h1 className="logo">{'<paste/>'}</h1>
                 </Link>
             </header>
